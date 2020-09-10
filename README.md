@@ -1,2 +1,2 @@
-# POO2---Notas
+# POO2 (Notas)
 Notas de Programación Orientada a Objetos II
