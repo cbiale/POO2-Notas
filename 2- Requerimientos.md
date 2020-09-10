@@ -21,7 +21,7 @@ Todas las partes involucradas deben estar en la mesa:
 
 Los componente a desarrollar son:
 - **Declaración de visión**: uno o dos párrafos sobre la visión compartida de clientes y desarrolladores sobre lo que debe hacer la aplicación.
-- **Lista de características**: sí, una lista con viñetas de características que la aplicación debería tener.
+- **Lista de características**: una lista con viñetas de características que la aplicación debería tener.
 - **Bocetos de interfaces de usuario** y cómo se usan.
 - **Algunos casos de uso**: para procesos involucrados, una secuencia paso a paso de cómo debe desarrollarse un escenario particular de interacción usuario-aplicación.
 - Posibles bibliotecas o frameworks que se van a utilizar.

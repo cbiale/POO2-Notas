@@ -2,8 +2,6 @@
 
 # Desarrolle el software que se necesita
 
-
-
 > A los ingenieros les gusta resolver problemas. Si no hay problemas fácilmente disponibles, crearán sus propios problemas. Scott Adams
 
 ## ¿Dónde están los problemas "reales"?
