@@ -1,4 +1,4 @@
-# Arquitectura cliente servidores
+# Arquitectura cliente servidor
 
 # Desarrolle el software que se necesita
 
