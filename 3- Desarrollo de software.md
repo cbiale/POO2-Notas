@@ -28,21 +28,79 @@ Consideremos los pasos principales que suceden cuando queremos acceder al SIU.
 
 > A los ingenieros les gusta resolver problemas. Si no hay problemas fácilmente disponibles, crearán sus propios problemas. **Scott Adams**
 
+¡Antes de inventar un problema, busque uno real! Al considerar una idea para su proyecto, hágase una pregunta sobre la utilidad de su producto. Si está dispuesto a resolver un problema real, disfruta de la ventaja de tener un "cliente" real con "expectativas" reales y un proyecto de software con "requisitos" y "limitaciones" reales.
+
 ## ¿Dónde están los problemas "reales"?
+
+Hable con la gente de sus círculos y acepte un problema real que la gente tiene. De hecho, existen muchas aplicaciones de software. Sin embargo, la gente busca constantemente formas mejores, más rápidas y más inteligentes de realizar las tareas diarias. Y afortunadamente para nosotros, los ingenieros de software, todavía hay muchos espacios para mejorar los productos de software existentes *(así como muchos nuevos por construir)*.
 
 # Especificación de requisitos de software
 
+Un requisito es una sola cosa que tiene que hacer el software.
+
+> En la ingeniería de sistemas y la ingeniería de requisitos, los requisitos funcionales definen lo que se supone que debe hacer un sistema y los requisitos no funcionales definen cómo se supone debe ser un sistema. **En POO2, requisito significa requisito funcional**. 
+
+La especificación de requisitos implica definir la funcionalidad prevista del software y las posibles limitaciones de su funcionamiento. 
+
+> Como vimos el primer paso en la construcción del proyecto de software es comprender cuáles son los requisitos. Esta fase también se denomina **Descubrimiento de productos**.
+
+
 ## El documento de especificaciones
 
-## Mejores prácticas
+En el siguiente enlace tienen disponible un modelo de plantilla para la **especificación de requisitos del proyecto**.
+
+Debemos tener en cuenta que la especificación del sistema de software es uno de los documentos más importantes para conectar al cliente y al equipo de desarrollo *(ingenieros de software)*.
+
+Algunas pautas a tener en cuenta son:
+- Cuando se realiza la captura de los requisitos para un sistema de software, deben asegurarse de anotar todos los requisitos *(sin perder ninguna funcionalidad que realmente le interese al cliente)*. Además, deben asegúrarse de que los requisitos sean coherentes entre sí, anotados con precisión y lo más concisos posible.
+- Es importante tener en cuenta que una especificación de software es una abstracción de lo que el sistema terminará siendo al final. Cuando comiencen a implementar el sistema y vayan a los detalles de nivel inferior o más bajos, se darán cuenta de que hay problemas con la especificación inicial. Esta bien; de hecho, a menudo hay cosas que no podrían haber descubierto de antemano.
+
+## Mejores prácticas (Recordatorio)
+
+Los proyectos de software que involucran a varias personas comienzan con impresiones muy diferentes sobre cómo debe estructurarse la aplicación. El objetivo principal es expandir y unificar esas visiones en una visión cohesiva.
+
+Esto sucede a través de discusiones, preguntas, bocetos y todas las partes involucradas deben estar en la mesa.
+
+> Vean un ejemplo de un [documento de especificación de requisitos]()
 
 # Wireframe
 
+
+
 # Modelos de procesos de software
+
+Podemos definir un **proceso de software**  como un conjunto de actividades relacionadas que conducen a la producción de un producto de software. En un nivel abstracto, un proceso de software involucra actividades relacionadas con la *especificación*, *diseño*, *desarrollo*, *validación (pruebas)* y *evolución (mantenimiento)* del software.
+
+Todos los modelos de proceso se pueden clasificar como uno de los siguientes:
+- Impulsado por planes *(plan-driven)*
+- Ágil
+
+Un proceso **impulsado por un plan** es aquel en el que todas las actividades del proceso se planifican con anticipación y el progreso se mide en función de este plan. Un ejemplo de un proceso impulsado por un plan es el [**modelo en cascada** *(waterfall)*](https://es.wikipedia.org/wiki/Desarrollo_en_cascada).
+
+En cambio, un **proceso ágil** es aquel en el que la planificación es incremental y es más fácil cambiar el proceso de acuerdo con los requisitos cambiantes del cliente.
 
 ## ¿Ágil o no ágil?
 
+El proceso de desarrollo ágil de software, desde su creación, produjo una tormenta en la industria del software y rápidamente se convirtió en el estilo de desarrollo más popular y de moda. Hay muchas razones para esto, pero quizás la más importante es que, en la práctica, los equipos de desarrollo que siguieron enfoques basados ​​en planes no pudieron producir sistemas de software de manera rápida y flexible. El proceso impulsado por un plan puede ser engorroso y limitante, ya que los requisitos a menudo cambian y se comprenden de manera imperfecta al comienzo de un proyecto de software.
+
+> El desarrollo de software a menudo se considera un problema perverso, lean la siguiente [reflexión](https://blog.codinghorror.com/development-is-inherently-wicked/)
+
+El proceso de desarrollo ágil, por otro lado, tiene sus raíces en el enfoque de **desarrollo incremental** que implica intercalar las actividades de especificación, desarrollo y validación. El software se desarrolla como una serie de versiones o incrementos, y cada versión agrega funcionalidad a la versión anterior. La idea subyacente en este enfoque es desarrollar una versión inicial de su software, abrirlo a comentarios y luego desarrollar gradualmente versiones más nuevas basadas en estos comentarios.
+
+> Lean este [articulo](https://en.wikipedia.org/wiki/Agile_software_development) como punto de inicio para profundizar sobre este tema.
+
 ## ¿Qué es (y no) desarrollo incremental?
 
+La idea de desarrollo iterativo e incremental a menudo se entiende mal. Veamos el siguiente [video](https://youtu.be/0P7nCmln7PM) para comprender mejor la metodología ágil.
+
 ## En la materia
+
+Estamos siguiendo un modelo híbrido que se basa principalmente en la metodología ágil *(en particular, en los métodos de desarrollo ágiles de Extreme Programming (XP) y Scrum)*.
+
+El proyecto se divide en varias iteraciones :
+
+- Comiencen con un primer paso en donde los requisitos y el diseño no estarán completos.
+- Implementen las funciones más importantes y hagan una aplicación que ejecute las funciones básicas.
+- A medida que toma forma una implementación inicial, úsenla para perfeccionar los requisitos y el diseño.
+- Implementen más funciones, continúen perfeccionando más los requisitos y el diseño, y proporcionen versiones continuas de la aplicación en ejecución.
 
