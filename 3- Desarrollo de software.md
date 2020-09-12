@@ -47,7 +47,7 @@ La especificación de requisitos implica definir la funcionalidad prevista del s
 
 ## El documento de especificaciones
 
-En el siguiente enlace tienen disponible un modelo de plantilla para la [**especificación de requisitos del proyecto**]().
+En el siguiente enlace tienen disponible un modelo de plantilla para la [**especificación de requisitos del proyecto**](./ejemplos/plantilla_erp.md).
 
 Debemos tener en cuenta que la especificación del sistema de software es uno de los documentos más importantes para conectar al cliente y al equipo de desarrollo *(ingenieros de software)*.
 
