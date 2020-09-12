@@ -65,7 +65,11 @@ Esto sucede a través de discusiones, preguntas, bocetos y todas las partes invo
 
 # Wireframe
 
+Además de enumerar las funcionalidades / características deseadas, también necesitamos esbozar cómo interactuará el usuario con nuestro software. Para ese objetivo, normalmente construimos una maqueta o esbozamos un esquema de página o plano de pantalla [*(wireframe)*](https://es.wikipedia.org/wiki/Wireframe_(dise%C3%B1o_web)).
 
+> Existen muchas herramientas gratuitas y propietarias para crear maquetas y/o wireframes. 
+> 
+> ¡Realmente no van a necesitar un software para esto! Manténgalo simple y usen papel y lápiz, pero siéntanse libres de aprovechar herramientas más poderosas como [Balsamiq](https://balsamiq.com/), [Sketch](https://www.sketch.com/), [Figma](https://www.figma.com/), [InVision](https://www.invisionapp.com/), etc. También pueden encontrar útiles herramientas gratuitas como [mydraft.cc](https://mydraft.cc/), [wireframe.cc](wireframe.cc) o [pencil](https://pencil.evolus.vn/). 
 
 # Modelos de procesos de software
 
