@@ -95,11 +95,11 @@ El proceso de desarrollo ágil, por otro lado, tiene sus raíces en el enfoque d
 
 ## ¿Qué es (y no) desarrollo incremental?
 
-La idea de desarrollo iterativo e incremental a menudo se entiende mal. Veamos el siguiente [video](https://youtu.be/0P7nCmln7PM) para comprender mejor la metodología ágil.
+La idea de desarrollo iterativo e incremental a menudo se entiende mal. Vean el siguiente [video](https://youtu.be/0P7nCmln7PM) para comprender mejor la metodología ágil.
 
 ## En la materia
 
-Estamos siguiendo un modelo híbrido que se basa principalmente en la metodología ágil *(en particular, en los métodos de desarrollo ágiles de Extreme Programming (XP) y Scrum)*.
+Vamos a seguir un modelo híbrido que se basa principalmente en la metodología ágil *(en particular, en los métodos de desarrollo ágiles de Extreme Programming (XP) y Scrum)*.
 
 El proyecto se divide en varias iteraciones :
 

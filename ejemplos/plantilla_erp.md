@@ -7,8 +7,7 @@ Escriban algunas oraciones que describan el problema que están tratando de reso
 ## Clientes potenciales
  
 
-¿Quiénes están afectados por este problema y se beneficiarían de la solución propuesta? *(es decir, los usuarios potenciales del software que están por construir)
-*.
+¿Quiénes están afectados por este problema y se beneficiarían de la solución propuesta? *(es decir, los usuarios potenciales del software que están por construir)*.
 
 ## Solución propuesta 
 
