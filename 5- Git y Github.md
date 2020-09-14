@@ -1,4 +1,4 @@
-# Git¶
+# Git
 
 Git es el sistema de control de versiones más popular del mundo. Puede mantener un historial completo de los cambios realizados en el código y volver a versiones anteriores cuando sea necesario. Estas características son útiles cuando se desean realizar cambios en el código sin perder el original.
 
@@ -17,7 +17,7 @@ Git también facilita la sincronización de código entre diferentes personas, l
 
 Siga las instrucciones proporcionadas en este [enlace](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) para configurar Git en su computadora portátil o computadora personal.
 
-Usando Git localmente
+# Usando Git localmente
 
 Abra una terminal en su sistema operativo.
 
@@ -27,17 +27,17 @@ En primer lugar debe comprobar si Git está instalado
 git --version
 ```
 
-Se le indica a Git quien es
+Debe indicarle a Git quien es
 
 ```
 git config --global user.email "nombre@ejemplo.com.ar"  
 git config --global user.name "nombre"
 ```
 
-Configurar e iniciar un nuevo repositorio
+Configure e inicie un nuevo repositorio
 
 ```
-cd path\directorio\de\trabajo
+cd path/directorio/de/trabajo
 mkdir nombre_repositorio
 cd nombre_repositorio
 git init
@@ -78,20 +78,20 @@ git log
 
 Las primeras líneas representan archivos que se modificaron o agregaron, los números después del campo de commit representan el valor hash del commit *(una cadena única que identifica la confirmación)*. Los campos Autor y Fecha contienen información sobre el autor, la hora del commit y el mensaje que el autor envió con el commit.
 
+# Ejercicios
 
+**Ejercicio 1**
+ 
+Abra el archivo ```README.md``` en su editor de texto favorito. Agregue su nombre y luego guarde el archivo.
+ 
+Regrese a la terminal y ejecute ```git status```, ¿Git es lo suficientemente inteligente como para darse cuenta de que ha realizado un cambio en el archivo README.md?
+ 
+Ejecute los comandos anteriores para agregar y confirmar los cambios realizados en el archivo ```README.md``` al historial de Git.
 
-> Ejercicio 1
-> 
-> Abra el archivo ```README.md``` en su editor de texto favorito. Agregue su nombre y luego guarde el archivo.
-> 
-> Regrese a la terminal y ejecute ```git status```, ¿Git es lo suficientemente inteligente como para darse cuenta de que ha realizado un cambio en el archivo README.md?
-> 
-> Siga los comandos anteriores para agregar y confirmar los cambios realizados en el archivo ```README.md``` al historial de Git.
-> 
-> Ejecute ```git log``` nuevamente, ¿cuántas confirmaciones tiene?
+Ejecute ```git log``` nuevamente, ¿cuántas confirmaciones tiene?
 
-> Ejercicio 2
-> 
-> ¿Puede revertir el cambio realizado en el archivo ```README.md```?
+**Ejercicio 2**
+ 
+¿Puede revertir el cambio realizado en el archivo ```README.md```?
 
 
