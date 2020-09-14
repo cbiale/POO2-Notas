@@ -143,7 +143,3 @@ Deben hacer varias rondas para realizar las listas de características / casos d
 Usen cada una para ayudar a refinar y expandir las mismas.
 
 Tienen dos oportunidades en el camino a desarrollar: la Iteración 1 e Iteración 2.
-
-
-
-

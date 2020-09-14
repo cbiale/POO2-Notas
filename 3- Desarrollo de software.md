@@ -107,4 +107,3 @@ El proyecto se divide en varias iteraciones :
 - Implementen las funciones más importantes y hagan una aplicación que ejecute las funciones básicas.
 - A medida que toma forma una implementación inicial, úsenla para perfeccionar los requisitos y el diseño.
 - Implementen más funciones, continúen perfeccionando más los requisitos y el diseño, y proporcionen versiones continuas de la aplicación en ejecución.
-
