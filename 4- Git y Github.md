@@ -216,3 +216,7 @@ Los proyectos de código abierto a menudo se desarrollan utilizando bifurcacione
 Se puede realizar una solicitud de extracción *(pull request)* para fusionar una rama de un repositorio con otra rama del mismo repositorio o incluso con un repositorio diferente. 
 
 > Las bifurcaciones, las issues y las solicitudes de extracción son características específicas de GitHub.
+
+# Git y VSCode
+
+VSCode tiene soporte para Git, recomiendo leer la [documentación oficial](https://code.visualstudio.com/Docs/editor/versioncontrol).
