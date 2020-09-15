@@ -11,7 +11,7 @@ Git también facilita la sincronización de código entre diferentes personas, l
 
 **Commit**: Git no guarda ningún cambio realizado en los archivos dentro de su repositorio hasta que realice un *"commit"*. Entonces, como verbo, es la acción de almacenar una nueva instantánea del estado del repositorio en el historial de Git. Cuando se usa *"commit"* como sustantivo, se refiere a un solo punto en la historia de Git.
 
-**Staging**: Expliquemos este con un ejemplo; Supongamos que se realizaron cambios en 4 archivos dentro de su repositorio, pero solo desea confirmar 2 de ellos porque los otros 2 tienen errores o aún no están completos. ¿Cómo se puede realizar el commit de solo 2 archivos? Bueno, hay que ponerlos en el *"área de staging"* después de lo cual es posible realizar un commit. Entonces, realizar un staging en un archivo significa que lo ha marcado para una confirmación.
+**Staging**: Expliquemos este con un ejemplo; supongamos que se realizaron cambios en 4 archivos dentro de su repositorio, pero solo desea confirmar 2 de ellos porque los otros 2 tienen errores o aún no están completos. ¿Cómo se puede realizar el commit de solo 2 archivos? Bueno, hay que ponerlos en el *"área de staging"* después de lo cual es posible realizar un commit. Entonces, realizar un staging en un archivo significa que lo ha marcado para una confirmación.
 
 # Instalar Git
 

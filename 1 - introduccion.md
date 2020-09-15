@@ -140,7 +140,7 @@ Vamos a seguir algunos híbridos del agilismo, Extreme Programming (XP) y Scrum.
 
 Instalar los siguientes aplicativos:
 - VSCode: https://code.visualstudio.com/download
-- Java 14: https://jdk.java.net/14/
+- Java 14: https://jdk.java.net/14/ o https://adoptopenjdk.net/
 - Postman: https://www.postman.com/downloads/
 - Git: https://git-scm.com/downloads
 
