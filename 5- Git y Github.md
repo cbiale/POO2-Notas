@@ -11,7 +11,7 @@ Git también facilita la sincronización de código entre diferentes personas, l
 
 **Commit**: Git no guarda ningún cambio realizado en los archivos dentro de su repositorio hasta que realice un *"commit"*. Entonces, como verbo, es la acción de almacenar una nueva instantánea del estado del repositorio en el historial de Git. Cuando se usa *"commit"* como sustantivo, se refiere a un solo punto en la historia de Git.
 
-**Staging**: Expliquemos este con un ejemplo; Supongamos que se realizaron cambios en 4 archivos dentro de su repositorio, pero solo desea confirmar 2 de ellos porque los otros 2 tienen errores o aún no están completos. ¿Cómo se puede realizar el commit de solo 2 archivos? Bueno, hay que ponerlos en el "área de staging" después de lo cual es posible realizar un commit. Entonces, realizar un staging en un archivo significa que lo ha marcado para una confirmación.
+**Staging**: Expliquemos este con un ejemplo; Supongamos que se realizaron cambios en 4 archivos dentro de su repositorio, pero solo desea confirmar 2 de ellos porque los otros 2 tienen errores o aún no están completos. ¿Cómo se puede realizar el commit de solo 2 archivos? Bueno, hay que ponerlos en el *"área de staging"* después de lo cual es posible realizar un commit. Entonces, realizar un staging en un archivo significa que lo ha marcado para una confirmación.
 
 # Instalar Git
 
@@ -76,7 +76,42 @@ Comprobando el historial de confirmaciones
 git log
 ```
 
-Las primeras líneas representan archivos que se modificaron o agregaron, los números después del campo de commit representan el valor hash del commit *(una cadena única que identifica la confirmación)*. Los campos Autor y Fecha contienen información sobre el autor, la hora del commit y el mensaje que el autor envió con el commit.
+Que retorna algo semejante a lo siguiente
+
+```
+commit 19d248fddb0b2c71aded0922d29961a817f5bb66 (HEAD -> master)
+Author: cbiale <claudio_biale@yahoo.com.ar>
+Date:   Mon Sep 14 19:28:34 2020 -0300
+
+    prueba 1
+```
+
+Los números después de commit representan el valor hash del commit *(una cadena única que identifica la confirmación)*. Los campos Autor y Fecha contienen información sobre el autor, la hora del commit. Luego se especifica el mensaje que el autor envió con el commit.
+
+# Comandos
+
+`git config user.name`: devuelve el nombre de usuario.
+
+`git config user.email`: devuelve el email de usuario.
+
+`git add <nombre(s) de archivo>`: agrega archivos al área de staging para ser incluidos en la próxima confirmación.
+
+`git add .`: agrega todos los archivos del directorio.
+
+`git commit -m "mensaje"`: toma una instantánea del repositorio y la guarda con un mensaje asociado a los cambios.
+
+`git commit -am <nombre(s) de archivo> "mensaje"`: agrega archivos y confirma los cambios, todo en uno.
+
+`git status`: imprime el estado actual del repositorio.
+
+`git log`: imprime un historial de todos los commits *(confirmaciones)* que se han realizado.
+
+`git checkout <commit>`: permite ver el estado de un repositorio en un commit *(confirmación)* determinado.
+
+`git checkout <commit> -b <nombre rama>`: crea una nueva rama de acuerdo al estado de un repositorio en un commit *(confirmación)* determinado.
+
+`git revert <commit>`: revierte un commit *(confirmación)* determinado, guardando la acción en el historial.
+
 
 # Ejercicios
 
@@ -93,5 +128,58 @@ Ejecute ```git log``` nuevamente, ¿cuántas confirmaciones tiene?
 **Ejercicio 2**
  
 ¿Puede revertir el cambio realizado en el archivo ```README.md```?
+
+# Lecturas recomendadas
+
+Para aprender sobre git pueden acceder a: [git](https://git-scm.com/doc) o [git-tower](https://www.git-tower.com/learn/) 
+
+Si quieren una hoja de referencia pueden usar la [Hoja de referencia para Github Git](https://training.github.com/downloads/es_ES/github-git-cheat-sheet/) ([pdf](https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf))
+
+# Github
+
+Antes de hablar sobre GitHub, deben tener en cuenta el hecho de que Git y GitHub no son lo mismo. Git es un sistema de control de versiones, mientras que GitHub es un servicio de alojamiento de repositorios y una plataforma de colaboración.
+
+> Deben crear una cuenta en github.com *(si aún no tienen una)*.
+
+# Temas a considerar
+
+Usaremos GitHub ampliamente en este curso:
+- para alojar sus proyectos, 
+- como una plataforma en la que pueden realizar trabajo colaborativo,
+- para proporcionarle comentarios sobre su trabajo, 
+- etc.
+
+Deben comprender *(y usar)* el funcionamiento de GitHub en cuanto a:
+
+- Comunicarse usando propuestas *(issues)*.
+- Crear ramas *(para agregar/actualizar funciones o características)*.
+- Realizar un pull request para introducir cambios.
+- Fusionar cambios.
+
+# Tarea a realizar
+
+Deben completar el curso denominado [Introducción a GitHub](https://lab.github.com/githubtraining/introduction-to-github) *(es práctico y tiene una duración de aproximadamente media hora)*.
+
+# Comandos y conceptos útiles
+
+**Repositorios**: Un **repositorio remoto** es aquel que no esté almacenado localmente en un dispositivo *(Entonces, GitHub es un servicio para alojar repositorios remotos )*. Un **repositorio de origen**  es aquel repositorio remoto desde el que se descargó originalmente el repositorio local.
+
+`git clone <url>`: toma un repositorio almacenado en un servidor *(como GitHub)* y lo descarga.
+
+`git push`: envía los cambios locales *(confirmaciones o commits)* a un servidor remoto.
+
+`git fetch`: descarga todo el historial de confirmaciones desde un repositorio remoto a un repositorio local.
+
+`git pull`: descarga cualquier cambio remoto de un repositorio remoto a un repositorio local.
+
+
+**Fusiones**: cuando se combinan diferentes versiones de código, por ejemplo, al usar  `git pull`, puede ocurrir un conflicto de fusión si las diferentes versiones tienen diferentes datos en la misma ubicación. Git intentará encargarse de la fusión automáticamente, pero si dos usuarios editan, por ejemplo, la misma línea, un conflicto de fusión deberá resolverse manualmente.
+
+> Para resolver un **conflicto de fusión**, simplemente elimine localmente todas las líneas y el código que no se desee y realice un `push`.
+
+Cuando se trabaja en equipo, es responsable de resolver el conflicto aquella persona que realizo por última vez un `push` y por lo tanto desencadenó el conflicto.
+
+**Ramas**: La ramificación es una característica de Git que permite que un proyecto se mueva simultáneamente en varias direcciones diferentes. Hay una rama `master`  que siempre se puede utilizar, pero se pueden crear cualquier número de ramas nuevas para desarrollar nuevas funciones. Una vez que estén listas, estas ramas se pueden fusionar nuevamente en  `master`.
+
 
 
