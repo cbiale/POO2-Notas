@@ -182,4 +182,20 @@ Cuando se trabaja en equipo, es responsable de resolver el conflicto aquella per
 **Ramas**: La ramificación es una característica de Git que permite que un proyecto se mueva simultáneamente en varias direcciones diferentes. Hay una rama `master`  que siempre se puede utilizar, pero se pueden crear cualquier número de ramas nuevas para desarrollar nuevas funciones. Una vez que estén listas, estas ramas se pueden fusionar nuevamente en  `master`.
 
 
+> Cuando trabajamos en un repositorio Git , **HEAD** se refiere al último commit de la rama actual donde se está trabajando.  Pero si nos movemos hacia cualquier otro commit  entonces el HEAD cambia para indicar la nueva rama de trabajo.
+
+> Al fusionar una rama de nuevo en master, existe la posibilidad de que surjan conflictos de fusión.
+
+
+`git branch`: enumera todas las ramas actuales de un repositorio.
+
+`git branch <nombre rama>`: crea una nueva rama.
+
+`git checkout <nombre rama>`: cambia la rama de trabajo actual a la especificada.
+
+`git merge <nombre>`: fusiona la rama especificada en la rama de trabajo actual *(normalmente  master)*.
+
+`git merge origin/master`: fusiona `origin/master`, que es la versión remota de un repositorio que normalmente se descarga con  `git fetch`, en la rama local `master`.
+
+`git pull` es equivalente a ejecutar un `git fetch` y luego un `git merge origin/master`.
 
