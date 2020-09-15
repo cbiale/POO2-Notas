@@ -219,4 +219,6 @@ Se puede realizar una solicitud de extracción *(pull request)* para fusionar un
 
 # Git y VSCode
 
-VSCode tiene soporte para Git, recomiendo leer la [documentación oficial](https://code.visualstudio.com/Docs/editor/versioncontrol).
+VSCode tiene soporte para Git, recomiendo leer la [documentación oficial](https://code.visualstudio.com/Docs/editor/versioncontrol). 
+
+> Una extensión interesante es [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
