@@ -151,7 +151,7 @@ Usaremos GitHub ampliamente en este curso:
 
 Deben comprender *(y usar)* el funcionamiento de GitHub en cuanto a:
 
-- Comunicarse usando propuestas *(issues)*.
+- Comunicarse usando issues *(propuestas)*.
 - Crear ramas *(para agregar/actualizar funciones o características)*.
 - Realizar un pull request para introducir cambios.
 - Fusionar cambios.
@@ -199,3 +199,20 @@ Cuando se trabaja en equipo, es responsable de resolver el conflicto aquella per
 
 `git pull` es equivalente a ejecutar un `git fetch` y luego un `git merge origin/master`.
 
+# Issues
+
+La mayoría de los proyectos de software tienen algún tipo de rastreador de errores. El rastreador de GitHub se llama *issues* y tiene su propia sección en cada repositorio. Aunque originalmente estaba destinado a rastrear errores, las *issues* ahora se utilizan para realizar un seguimiento de las mejoras, la hoja de ruta del producto, para la planificación, las solicitudes de funciones, etc. Las *issues* están en el corazón de GitHub y actúan como una especie de sala de chat/foro/correo electrónico donde todos los miembros de su equipo de trabajo pueden comunicarse sobre su proyecto de software.
+
+# Fork
+
+Una fork o bifurcación de un repositorio es un repositorio completamente separado que es una copia del repositorio original. Un repositorio bifurcado se puede administrar y modificar como cualquier otro, todo sin afectar la copia original.
+
+Los proyectos de código abierto a menudo se desarrollan utilizando bifurcaciones. Habrá una versión central del software que los contribuyentes bifurcarán y mejorarán, y cuando quieran que estos cambios se fusionen en el repositorio central, envían una "solicitud de extracción" *(pull request)*.
+
+> En este curso no vamos a utilizar bifurcaciones
+
+# Pull request
+
+Se puede realizar una solicitud de extracción *(pull request)* para fusionar una rama de un repositorio con otra rama del mismo repositorio o incluso con un repositorio diferente. 
+
+> Las bifurcaciones, las issues y las solicitudes de extracción son características específicas de GitHub.
