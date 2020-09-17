@@ -102,7 +102,7 @@ Se puede seguir un modelo híbrido que se basa principalmente en la metodología
 El proyecto se divide en varias iteraciones :
 
 - Comiencen con un primer paso en donde los requisitos y el diseño no estarán completos.
-- Implementen las funciones más importantes y hagan una aplicación que ejecute las fwwunciones básicas.
+- Implementen las funciones más importantes y hagan una aplicación que ejecute las funciones básicas.
 - A medida que toma forma una implementación inicial, úsenla para perfeccionar los requisitos y el diseño.
 - Implementen más funciones, continúen perfeccionando más los requisitos y el diseño, y proporcionen versiones continuas de la aplicación en ejecución.
 
