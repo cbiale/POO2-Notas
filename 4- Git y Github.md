@@ -168,9 +168,7 @@ Deben completar el curso denominado [Introducción a GitHub](https://lab.github.
 
 `git push`: envía los cambios locales *(confirmaciones o commits)* a un servidor remoto.
 
-`git fetch`: descarga todo el historial de confirmaciones desde un repositorio remoto a un repositorio local.
-
-`git pull`: descarga cualquier cambio remoto de un repositorio remoto a un repositorio local.
+`git fetch`: descarga todo el historial de confirmaciones desde un repositorio remoto a un repositorio local *(en la rama oculta origin/master)*.
 
 
 **Fusiones**: cuando se combinan diferentes versiones de código, por ejemplo, al usar  `git pull`, puede ocurrir un conflicto de fusión si las diferentes versiones tienen diferentes datos en la misma ubicación. Git intentará encargarse de la fusión automáticamente, pero si dos usuarios editan, por ejemplo, la misma línea, un conflicto de fusión deberá resolverse manualmente.
@@ -222,3 +220,7 @@ Se puede realizar una solicitud de extracción *(pull request)* para fusionar un
 VSCode tiene soporte para Git, recomiendo leer la [documentación oficial](https://code.visualstudio.com/Docs/editor/versioncontrol). 
 
 > Una extensión interesante es [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
+Una alternativa es usar [**Git-flow**](https://github.com/nvie/gitflow), para instalarlo siga el siguiente [enlace](https://github.com/nvie/gitflow/wiki/Installation). Si considera relevante usarlo, recomiendo lea el siguiente [enlace](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow) para comprender su funcionamiento.
+
+> Una extensión que se puede usar es [BABA-Git Flow](https://marketplace.visualstudio.com/items?itemName=Fatih.baba-flow)
