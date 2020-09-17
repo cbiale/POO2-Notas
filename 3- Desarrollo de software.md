@@ -61,8 +61,6 @@ Los proyectos de software que involucran a varias personas comienzan con impresi
 
 Esto sucede a través de discusiones, preguntas, bocetos y todas las partes involucradas deben estar en la mesa.
 
-> Vean un ejemplo de un [documento de especificación de requisitos]()
-
 # Wireframe
 
 Además de enumerar las funcionalidades / características deseadas, también necesitamos esbozar cómo interactuará el usuario con nuestro software. Para ese objetivo, normalmente construimos una maqueta o esbozamos un esquema de página o plano de pantalla [*(wireframe)*](https://es.wikipedia.org/wiki/Wireframe_(dise%C3%B1o_web)).
@@ -109,3 +107,5 @@ El proyecto se divide en varias iteraciones :
 - Implementen más funciones, continúen perfeccionando más los requisitos y el diseño, y proporcionen versiones continuas de la aplicación en ejecución.
 
 > Comparen esto con las iteraciones descriptas en la clase anterior.
+> > <span style="background-color:green"> Con cual consideran van a trabajar mejor.</span>
+
