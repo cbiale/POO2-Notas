@@ -102,6 +102,8 @@ Los números después de commit representan el valor hash del commit *(una caden
 
 `git commit -am <nombre(s) de archivo> "mensaje"`: agrega archivos y confirma los cambios, todo en uno.
 
+`git restore --staged <nombre(s) de archivo`: quita archivos del área de staging.
+
 `git status`: imprime el estado actual del repositorio.
 
 `git log`: imprime un historial de todos los commits *(confirmaciones)* que se han realizado.
