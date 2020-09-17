@@ -107,5 +107,5 @@ El proyecto se divide en varias iteraciones :
 - Implementen más funciones, continúen perfeccionando más los requisitos y el diseño, y proporcionen versiones continuas de la aplicación en ejecución.
 
 > Comparen esto con las iteraciones descriptas en la clase anterior.
-
+> 
 > **¿Con cual consideran van a trabajar mejor?**
