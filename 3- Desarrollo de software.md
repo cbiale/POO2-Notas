@@ -67,7 +67,7 @@ Además de enumerar las funcionalidades / características deseadas, también ne
 
 > Existen muchas herramientas gratuitas y propietarias para crear maquetas y/o wireframes. 
 > 
-> ¡Realmente no van a necesitar un software para esto! Manténgalo simple y usen papel y lápiz, pero siéntanse libres de aprovechar herramientas más poderosas como [Balsamiq](https://balsamiq.com/), [Sketch](https://www.sketch.com/), [Figma](https://www.figma.com/), [InVision](https://www.invisionapp.com/), etc. También pueden encontrar útiles herramientas gratuitas como [mydraft.cc](https://mydraft.cc/), [wireframe.cc](wireframe.cc) o [pencil](https://pencil.evolus.vn/). 
+> ¡Realmente no van a necesitar un software para esto! Manténgalo simple y usen papel y lápiz, pero siéntanse libres de aprovechar herramientas más poderosas como [Balsamiq](https://balsamiq.com/), [Sketch](https://www.sketch.com/), [Figma](https://www.figma.com/), [InVision](https://www.invisionapp.com/), etc. También pueden encontrar útiles herramientas gratuitas como [mydraft.cc](https://mydraft.cc/), [wireframe.cc](https://wireframe.cc/) o [pencil](https://pencil.evolus.vn/). 
 
 # Modelos de procesos de software
 
@@ -102,7 +102,7 @@ Se puede seguir un modelo híbrido que se basa principalmente en la metodología
 El proyecto se divide en varias iteraciones :
 
 - Comiencen con un primer paso en donde los requisitos y el diseño no estarán completos.
-- Implementen las funciones más importantes y hagan una aplicación que ejecute las funciones básicas.
+- Implementen las funciones más importantes y hagan una aplicación que ejecute las fwwunciones básicas.
 - A medida que toma forma una implementación inicial, úsenla para perfeccionar los requisitos y el diseño.
 - Implementen más funciones, continúen perfeccionando más los requisitos y el diseño, y proporcionen versiones continuas de la aplicación en ejecución.
 
