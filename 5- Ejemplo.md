@@ -5,3 +5,4 @@ El proyecto consiste en crear un sitio web donde las personas puedan comentar y 
 El proceso de revisión debe ser seguro, sencillo y ágil. Una persona podrá agregar un curso que haya tomado y escribir una breve reseña del mismo. La revisión debe incluir una calificación de cero a diez, un comentario sobre su experiencia y un consejo para las personas que consideren tomar el curso *(qué esperar del curso, cómo tener éxito, etc.)*.
 
 > Piense en la **especificación de requisitos del proyecto**.
+
