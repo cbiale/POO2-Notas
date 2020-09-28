@@ -1,4 +1,4 @@
-# Manejo de dependecias con Maven
+# Manejo de dependencias con Maven
 
 Vamos a hacer un rápido recorrido de una popular herramienta de automatización de compilación denominada **Maven**. Las herramientas de compilación se utilizan para automatizar el proceso de empaquetar y enviar su código a sus usuarios. Cuando se trabaja con equipos, es esencial tener una herramienta de construcción estandarizada.
 
@@ -13,7 +13,7 @@ Entre las opciones se encuentran:
 - deploy: se  realiza en  un  entorno  de  integración,  copia  el  paquete final  en  el repositorio remoto para compartirlo con otros desarrolladores y proyectos.
 
 
-> Gradle es otra alternativa en Java
+> [Gradle](https://gradle.org/) es otra alternativa en Java.
 
 En esta materia, vamos a limitar nuestro enfoque en la gestión de dependencias. Al crear aplicaciones de software, a menudo se utilizan herramientas y bibliotecas escritas por otros desarrolladores. Estos programas de software son las dependencias de su aplicación, ya que su software *(o flujo de desarrollo)* depende de él. Por ejemplo, al crear un proyecto Java en VSCode se utiliza JUnit pruebas unitarias. JUnit es un programa de código abierto escrito para facilitar el desarrollo basado en pruebas en Java.
 
@@ -27,7 +27,7 @@ El  uso  de  este  tipo  de  herramientas  es  clave  para  los  proyectos,  dad
 
 Es  el  núcleo  de  la  configuración  de  un  proyecto  en  Maven.  Es  un  archivo  de configuración único que contiene la mayoría de la información requerida para construir un proyecto de la manera que se desee.
 
-## Agregar Dependencias
+## Agregar dependencias
 
 Es posible buscar dependencias en repositorios Maven para agregarlas a nuestro archivo pom.xml en sitios como https://mvnrepository.com/.
 
@@ -50,8 +50,9 @@ Esto se debe agregar en el apartado **dependencies** del archivo pom.xml del pro
 
 > Referencias adicionales:
 > 
-> https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
-> http://maven.apache.org/what-is-maven.html
+>- [Java build tools in VS Code](https://code.visualstudio.com/docs/java/java-build)
+> - [Maven Introduction](http://maven.apache.org/what-is-maven.html)
+> - [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 # Recomendación de cursos
 
