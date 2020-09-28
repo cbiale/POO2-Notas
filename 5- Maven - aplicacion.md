@@ -6,3 +6,12 @@ El proceso de revisión debe ser seguro, sencillo y ágil. Una persona podrá ag
 
 > Piense en la **especificación de requisitos del proyecto**.
 
+# Manejo de dependecias con Maven
+
+# Clase ...
+
+# Clase ...
+
+> Paquetes... 
+
+# Formato proyecto
