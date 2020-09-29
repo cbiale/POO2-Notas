@@ -17,7 +17,7 @@ Al capturar una característica *(requisito funcional)* de una manera tan concre
 >
 > Cuando pensamos en historias de usuarios, es importante no sentirse demasiado limitado por el proceso. 
 >
-> Un lugar en el que la gente encuentra esto limitante es en términos de rol-objetivo-beneficio. >
+> Un lugar en el que la gente encuentra esto limitante es en términos de rol-objetivo-beneficio.
 > 
 > El papel de nuestras historias de usuario no siempre tiene que ser el de entidades humanas.
 >
@@ -39,9 +39,27 @@ Aquí hay un conjunto de pautas para ayudarlo a escribir historias de usuarios e
 
 Tomando como referencias del proyecto que estamos desarrollando podemos tener las siguientes historias de usuario:
 
-| Id | Prioridad | Tiempo estimado | Historia |  
-|:--:|:---------:|:---------------:|:--------:|
-| 1 | Debe tener | 8 días | Como un usuario de la aplicación quiero poder ver una lista completa de todos los libros |
+Debe tener:
+- Como un estudiante, quiero agregar un curso para poder escribir una reseña sobre el mismo.
+- Como un estudiante, quiero calificar un curso dándole un valor de 0 a 10 para poder cuantificar mi experiencia general al tomarlo.
+- Como un estudiante, quiero escribir un comentario abierto sobre un curso que he tomado para poder desarrollar la calificación que proporcioné.
+- Como un estudiante, quiero buscar un un curso para poder darle una revisión o leer todas sus revisiones.
+- Como estudiante, quiero examinar todas las reseñas de un curso para poder aprender más sobre un curso que estoy considerando tomar.
+
+Es bueno tener:
+- Como un estudiante, quiero ver una calificación promedio de un curso para poder tener una impresión general de lo que otros experimentaron al tomar el curso.
+- Como un estudiante, quiero que me guste / no me guste una reseña para poder estar de acuerdo o en desacuerdo con un reseñador.
+- Como un estudiante, quiero ordenar las reseñas basado en varios criterios para poder encontrar fácilmente la información más relevante que busco.
+- Como un estudiante, quiero ordenar marcar una reseña como inapropiada para que el administración pueda eliminarla de las reseñas.
+- Como un administrador, quiero poder eliminar una reseña si se considera inapropiada para que la aplicación no se convierta en un lugar para los trolls.
+
+
+Las historias de usuario se puede documentar usando el siguiente formato:
+- Id
+- Título
+- Prioridad
+- Tiempo estimado 
+- Historia de usuario
 
 # Backlog del proyecto
 
