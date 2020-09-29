@@ -34,6 +34,8 @@ Durante el transcurso de la materia voy a ir subiendo otros libros de referencia
 
 Las presentaciones o apuntes no reemplazan a la bibliografía de la asignatura.
 
+Pueden revisar el [calendario tentativo](https://docs.google.com/spreadsheets/d/1Lx-UFvRmuWhXQqqIy6PtvAS2hv1Q0MiYdR4QqlKkwQs/edit?usp=sharing). 
+
 # Objetivos del Curso
 
 Mejorar su habilidad para:
