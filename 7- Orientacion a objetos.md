@@ -4,6 +4,7 @@
 
 > Clase: 
 
+
 > Modelo: 
 
 # Encapsulación
