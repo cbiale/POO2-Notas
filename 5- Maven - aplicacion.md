@@ -5,7 +5,8 @@ Vamos a hacer un rápido recorrido de una popular herramienta de automatización
 Maven  es una forma  moderna  de  construir  un  proyecto en Java *(aunque Gradle esta ganando terreno)*. Al  igual  que un makefile en C, en Maven es posible definir fases para diferentes funciones del ciclo de vida, para ello existe un archivo de configuración denominado **pom.xml**.
 
 Entre las opciones se encuentran:
-- clean: limpia los artefactos creados por compilaciones anterioresvalidate:  asegurarse  que  se  tienen  por  ejemplo  todos  los  paquetes  requeridos, etc.
+- clean: limpia los artefactos creados por compilaciones anteriores
+- validate:  asegurarse  que  se  tienen  por  ejemplo  todos  los  paquetes  requeridos, etc.
 - compile: compila el código fuente del proyecto
 - test: realiza  pruebas del  código  fuente  compilado  usando  un framework de prueba.
 - package: poner todo en un único archivo, por ejemplo un archivo jar.- install:instala  el  paquete  en  el  repositorio  local,  para  usarlo  como  dependencia en otros proyectos localmente
@@ -62,11 +63,6 @@ El proceso de revisión debe ser seguro, sencillo y ágil. Una persona podrá ag
 
 > Piense en la **especificación de requisitos del proyecto**.
 
-
-# Clase ...
-
-# Clase ...
-
 > **Paquetes de Java**
 >
 > Un paquete en Java se utiliza para agrupar clases relacionadas de forma muy similar a una carpeta en un directorio de archivos. Por convención, los nombres de los paquetes se escriben en minúsculas. 
@@ -77,16 +73,18 @@ En VSCode usando Maven, crea un proyecto con una estructura predeterminada. Por 
 
 ```
 .
-├── build.gradle
-├── gradle
-├── settings.gradle
+├── .classpath
+├── .project
+├── pom.xml
+├── .settings
+├── target
 └── src
     ├── main
     │   └── java
-    │       └── model
-    │           └── Book.java
+    │       └── App.java
     └── test
         └── java
-            └── model
-                └── BookTest.java
+            └── AppTest.java
 ```
+
+## Armemos las clases en Java
