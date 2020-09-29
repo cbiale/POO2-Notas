@@ -23,7 +23,7 @@ En este punto entran en juego **Maven**, que ante todo es una herramienta de con
 
 El  uso  de  este  tipo  de  herramientas  es  clave  para  los  proyectos,  dado  que  se  puede compartir un  archivo  de  compilación  de  Maven  y el equipo de  desarrollo utilizará automáticamente  versiones  idénticas  de  bibliotecas,  etc.,  minimizando de  esta  forma errores.
 
-## El Archivo pom.xml
+## El archivo pom.xml
 
 Es  el  núcleo  de  la  configuración  de  un  proyecto  en  Maven.  Es  un  archivo  de configuración único que contiene la mayoría de la información requerida para construir un proyecto de la manera que se desee.
 
@@ -67,6 +67,26 @@ El proceso de revisión debe ser seguro, sencillo y ágil. Una persona podrá ag
 
 # Clase ...
 
-> Paquetes... 
+> **Paquetes de Java**
+>
+> Un paquete en Java se utiliza para agrupar clases relacionadas de forma muy similar a una carpeta en un directorio de archivos. Por convención, los nombres de los paquetes se escriben en minúsculas. 
 
 # Formato proyecto
+
+En VSCode usando Maven, crea un proyecto con una estructura predeterminada. Por lo tanto, se debe colocar el código fuente en `src/main/java` y las pruebas en `src/test/java`.
+
+```
+.
+├── build.gradle
+├── gradle
+├── settings.gradle
+└── src
+    ├── main
+    │   └── java
+    │       └── model
+    │           └── Book.java
+    └── test
+        └── java
+            └── model
+                └── BookTest.java
+```
