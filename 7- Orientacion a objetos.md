@@ -62,7 +62,7 @@ Implica:
 - **Diseño**, o modelado de soluciones, en el que se descubre y representa una solución al problema.
 - **Implementación**, en la que se escribe y prueba el código que conforma el sistema que se encuentra desarrollando.
 
-En un modelo tradicional basado en planes (como "Cascada"), estos pasos se toman en orden y por turno. En un modelo de desarrollo de software ágil, se toma el enfoque incremental para el desarrollo donde en cada ciclo (iteración), se analiza un poco, se diseña un poco y luego se codifica un poco. Al final del ciclo, recibe comentarios y se responde a los cambios.
+En un modelo tradicional basado en planes *(como "Cascada")*, estos pasos se toman en orden y por turno. En un modelo de desarrollo de software ágil, se toma el enfoque incremental para el desarrollo donde en cada ciclo *(iteración)*, se analiza un poco, se diseña un poco y luego se codifica un poco. Al final del ciclo, recibe comentarios y se responde a los cambios.
 
 El ciclo de analizar un poco, diseñar un poco, codificar un poco es lo que se espera empleen a través de las iteraciones del proyecto.
 
