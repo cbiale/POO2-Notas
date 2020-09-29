@@ -6,6 +6,8 @@
  
  Por otro lado, para los no programadores, la forma orientada a objetos de descomponer un problema es similar a la forma en que se utilizan para ver situaciones de la vida real. De hecho, vivimos en un mundo formado por objetos que interactúan.
 
+> Key A., "Microelectronics and Personal Computer." Scientific American 237(3):230-244 (1977)
+
 ## Objeto
  
 "Un objeto representa un elemento, item, unidad o entidad individual e identificable, ya sea real o abstracta, con un papel bien definido en el dominio del problema"
@@ -39,9 +41,28 @@ Los objetos, tanto en el software como en la vida real, se construyen de manera 
 
 La clase es una unidad de encapsulación en POO; proporciona la maquinaria para agrupar el estado y el comportamiento *(campos de datos y métodos que funcionan con esos datos)* dentro de una unidad. El estado suele ser privado para el objeto y no *(directamente)* visible para los clientes. Este concepto de negar el acceso directo al estado de un objeto se denomina **ocultación de información**. Además del estado, algunos de los comportamientos *(responsabilidades)* de un objeto también pueden estar ocultos y solo utilizados por el objeto. El conjunto de comportamiento visible *(público)* de un objeto forma su **interfaz** y define cómo colabora *(actúa y reacciona)* con otros objetos.
 
-# Herencia y polimorfismo
+## Herencia y polimorfismo
 
-# Composición de objetos
+Puede existir una relación de superclase/subclase entre dos clases cuando una clase *"es una especie o tipo de"* la otra clase. Las subclases heredan la estructura y el comportamiento de su superclase. Por lo tanto, el comportamiento y los atributos comunes se pueden definir solamente en la superclase en lugar de repetirse en cada subclase.
 
-# Análisis y diseño orientado a objetos (ADOO)
+El polimorfismo *(que tiene muchas formas)* es la capacidad de una entidad en un modelo orientado a objetos para referirse a objetos de diferentes clases en diferentes momentos. Por ejemplo, un método que acepta un objeto de cierta clase también operará en sus subclases.
+
+## Composición de objetos
+
+Otra forma eficaz de reutilizar código *(pero sin herencia)* es mediante la composición de objetos que, en pocas palabras, es una forma de combinar objetos en otros más complejos.
+
+# Análisis y diseño orientado a objetos
+
+El análisis y diseño orientado a objetos es un enfoque de ingeniería de software que modela un sistema como un grupo de objetos que interactúan.
+
+Los objetos deben modelar el comportamiento y el estado relevante para el sistema que se está implementando. Solo ciertas propiedades y comportamientos son relevantes; identificar lo que es relevante es una parte clave del análisis y diseño orientado a objetos.
+
+Implica: 
+- **Análisis**, o modelado de problemas, en el que se describe y representa el problema.
+- **Diseño**, o modelado de soluciones, en el que se descubre y representa una solución al problema.
+- **Implementación**, en la que se escribe y prueba el código que conforma el sistema que se encuentra desarrollando.
+
+En un modelo tradicional basado en planes (como "Cascada"), estos pasos se toman en orden y por turno. En un modelo de desarrollo de software ágil, se toma el enfoque incremental para el desarrollo donde en cada ciclo (iteración), se analiza un poco, se diseña un poco y luego se codifica un poco. Al final del ciclo, recibe comentarios y se responde a los cambios.
+
+El ciclo de analizar un poco, diseñar un poco, codificar un poco es lo que se espera empleen a través de las iteraciones del proyecto.
 
