@@ -35,3 +35,7 @@ El Documento de diseño y planificación debe contener los siguientes apartados:
 Deben usar Markdown para escribir los archivos `.md`, es simple de usar pero siempre es bueno tener unas referencias: 
 - https://www.markdownguide.org/cheat-sheet/
 - https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
+> En VSCode pueden instalar las siguientes extensiones:
+> - Markdown Preview Enhanced: `shd101wyy.markdown-preview-enhanced`
+> - Markdown All in One `yzhang.markdown-all-in-one`
