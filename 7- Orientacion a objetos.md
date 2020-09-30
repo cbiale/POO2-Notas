@@ -1,8 +1,15 @@
+<style>
+p {
+    text-align: justify
+}
+</style>
+
 # Programación orientada a Objetos
 
  Enseñar programación orientada a objetos *(POO)* a quienes no tienen experiencia en programación es más fácil que a quienes tienen experiencia en programación *(procedimental o funcional)*. 
  
  Esto se debe a que los programadores experimentados se acostumbran al pensamiento y modelado procedimental *(o funcional)*. 
+ 
  
  Por otro lado, para los no programadores, la forma orientada a objetos de descomponer un problema es similar a la forma en que se utilizan para ver situaciones de la vida real. De hecho, vivimos en un mundo formado por objetos que interactúan.
 
