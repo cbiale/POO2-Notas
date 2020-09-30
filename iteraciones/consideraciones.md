@@ -1,4 +1,4 @@
-# Iteraciones¶
+# Iteraciones
 
 El desarrollo del proyecto se divide en una secuencia de seis iteraciones de dos semanas, la iteración 0 ya fue realizada *(formaron grupos y decidieron que hacer)*.
 

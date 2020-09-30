@@ -1,4 +1,4 @@
-# Lectura 2
+# Lectura 3
 
 No es una lectura, pero queda agrupada como tal, deben mirar el siguiente video sobre **git**.
 
