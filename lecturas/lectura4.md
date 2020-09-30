@@ -9,5 +9,10 @@ Para su estudio analice lo siguiente:
 - Compare lo que indican sobre para que sirve un caso de uso con lo aprendido en la carrera. Describa si encuentra diferencias.
 
 > Use cases vs user stories in Agile development https://www.boost.co.nz/blog/2012/01/use-cases-or-user-stories
+> 
 > Requirements 101: User Stories vs. Use Cases https://www.stellman-greene.com/2009/05/03/requirements-101-user-stories-vs-use-cases/
+> 
+> User stories: a beginner’s guide to acceptance criteria https://www.boost.co.nz/blog/2010/09/acceptance-criteria
+> 
 > User Stories Versus Use Cases https://www.bridging-the-gap.com/user-stories-use-cases/
+
