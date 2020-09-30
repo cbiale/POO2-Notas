@@ -39,14 +39,14 @@ Aquí hay un conjunto de pautas para ayudarlo a escribir historias de usuarios e
 
 Tomando como referencias del proyecto que estamos desarrollando podemos tener las siguientes historias de usuario:
 
-Debe tener:
+**Debe tener**:
 - Como estudiante, quiero agregar un curso para poder escribir una reseña sobre el mismo.
 - Como estudiante, quiero calificar un curso dándole un valor de 0 a 10 para poder cuantificar mi experiencia general al tomarlo.
 - Como estudiante, quiero escribir un comentario abierto sobre un curso que he tomado para poder desarrollar la calificación que proporcioné.
 - Como estudiante, quiero buscar un un curso para poder darle una revisión o leer todas sus revisiones.
 - Como estudiante, quiero examinar todas las reseñas de un curso para poder aprender más sobre un curso que estoy considerando tomar.
 
-Es bueno tener:
+**Es bueno tener**:
 - Como estudiante, quiero ver una calificación promedio de un curso para poder tener una impresión general de lo que otros experimentaron al tomar el curso.
 - Como estudiante, quiero que me guste / no me guste una reseña para poder estar de acuerdo o en desacuerdo con un reseñador.
 - Como estudiante, quiero ordenar las reseñas basado en varios criterios para poder encontrar fácilmente la información más relevante que busco.
@@ -89,7 +89,7 @@ En el desarrollo de software ágil, los profesionales combaten la falacia de la 
 
 ## Precaución
 
-Si las estimaciones de historias mayores a 13 *(días ideales)* no pueden caber en una iteración. Es posible que deseen intentar dividir esa historia en varias historias más pequeñas y más fáciles de estimar.
+Si las estimaciones de historias mayores a 13 *(días ideales)* no pueden caber en una iteración, es posible que deseen intentar dividir esa historia en varias historias más pequeñas y más fáciles de estimar.
 
 Si la estimación total de todas las historias de usuario en la categoría **debe tener** es mucho mayor que la duración de cinco iteraciones, deben realizar cambios *(incluso la eliminación del proyecto en favor de uno más pequeño)*.
 
