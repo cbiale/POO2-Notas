@@ -1,9 +1,3 @@
-<style>
-p {
-    text-align: justify
-}
-</style>
-
 # Programación orientada a Objetos
 
  Enseñar programación orientada a objetos *(POO)* a quienes no tienen experiencia en programación es más fácil que a quienes tienen experiencia en programación *(procedimental o funcional)*. 
