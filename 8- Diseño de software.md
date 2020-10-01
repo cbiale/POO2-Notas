@@ -1,5 +1,12 @@
 # Unified Modeling Language
 
+
+
+> Una buena referencia rápida para UML es la de [Allen Holub](https://holub.com/uml/). 
+>
+> Una hoja de datos aún más concisa se encuentra en [uml-cheatsheet.pdf](./anexos/uml-cheatsheet.pdf).
+> 
+
 # Clases
 
 # Relaciones

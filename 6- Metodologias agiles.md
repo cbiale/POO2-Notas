@@ -43,14 +43,14 @@ Tomando como referencias del proyecto que estamos desarrollando podemos tener la
 - Como estudiante, quiero agregar un curso para poder escribir una reseña sobre el mismo.
 - Como estudiante, quiero calificar un curso dándole un valor de 0 a 10 para poder cuantificar mi experiencia general al tomarlo.
 - Como estudiante, quiero escribir un comentario abierto sobre un curso que he tomado para poder desarrollar la calificación que proporcioné.
-- Como estudiante, quiero buscar un un curso para poder darle una revisión o leer todas sus revisiones.
+- Como estudiante, quiero buscar un curso para poder darle una revisión o leer todas sus revisiones.
 - Como estudiante, quiero examinar todas las reseñas de un curso para poder aprender más sobre un curso que estoy considerando tomar.
 
 **Es bueno tener**:
 - Como estudiante, quiero ver una calificación promedio de un curso para poder tener una impresión general de lo que otros experimentaron al tomar el curso.
-- Como estudiante, quiero que me guste / no me guste una reseña para poder estar de acuerdo o en desacuerdo con un reseñador.
-- Como estudiante, quiero ordenar las reseñas basado en varios criterios para poder encontrar fácilmente la información más relevante que busco.
-- Como estudiante, quiero ordenar marcar una reseña como inapropiada para que el administración pueda eliminarla de las reseñas.
+- Como estudiante, quiero que indicar si me gusta / no me gusta una reseña para poder estar de acuerdo o en desacuerdo con un reseñador.
+- Como estudiante, quiero ordenar las reseñas basandome en varios criterios para poder encontrar fácilmente la información más relevante que busco.
+- Como estudiante, quiero marcar una reseña como inapropiada para que el administración pueda eliminarla de las reseñas.
 - Como administrador, quiero poder eliminar una reseña si se considera inapropiada para que la aplicación no se convierta en un lugar para los trolls.
 
 
@@ -95,7 +95,7 @@ Si la estimación total de todas las historias de usuario en la categoría **deb
 
 ## Día ideal
 
-Una unidad para estimar el tamaño de los items del backlog del producto según el tiempo que tardaría en completarse un item si fuera el único trabajo que se realiza, que no hubo interrupciones y todos los recursos necesarios para completar el trabajo están disponibles de inmediato.
+Una unidad para estimar el tamaño de los items del backlog del producto según el tiempo que tardaría en completarse un item si fuera el único trabajo que se realiza, que no hay interrupciones y todos los recursos necesarios para completar el trabajo están disponibles de inmediato.
 
 > Al estimar, se debe tener en cuenta el tiempo que se dedicará a investigar o aprender sobre el desarrollo de una funcionalidad.
 
