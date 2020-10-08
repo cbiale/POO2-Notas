@@ -9,15 +9,15 @@
 
 Después de escribir el documento de especificación de requisitos y planificar sus iteraciones, es el momento de realizar el análisis y diseño orientados a objetos:
 
-- Cuales son sus clases?
+- ¿Cuales son sus clases?
 - ¿Cuántas deberían tener?
 - ¿Qué comportamiento implementarán?
 - ¿Cuánto sabe una clase sobre otras clases?
 - ¿Cuánto de sí mismas deberían exponer?
 
-Decidir qué clases usar (para implementar una solución a un problema) puede ser una tarea difícil.
+Decidir qué clases usar *(para implementar una solución a un problema)* puede ser una tarea difícil.
 
-> Se deben diseñar las clases para modelar la aplicación y se debe considerar que deben sean fáciles de cambiar.
+> Se deben diseñar las clases para modelar la aplicación y se debe considerar que deben ser fáciles de cambiar.
 
 Muchas de las decisiones que tomen hoy deberán cambiarse más adelante. Cuando llegue ese día, su capacidad para realizar esos cambios con éxito estará determinada por el diseño de su aplicación.
 
@@ -87,7 +87,7 @@ Cada historia de usuario describe un "escenario" para utilizar el software. Una 
 
 > Beck K., Cunningham W., "A Laboratory For Teaching Object-Oriented Thinking", available at http://c2.com/doc/oopsla89/paper.html (1989).
 
-> Advertencia
+> **Advertencia**
 > 
 > - El documento de especificación de requisitos es la entrada inicial al proceso. El documento debe incluir historias de usuarios. Un proyecto que no puede proporcionar este documento no está listo para comenzar a modelar.
 > - Los participantes deben haber leído y deben estar familiarizados con documento de especificación de requisitos que se utilizará en la sesión.
@@ -106,7 +106,6 @@ El dilema de "mejorarlo ahora" versus "mejorarlo después" siempre existe.
 El proceso quizás se vuelva un poco más fácil cuando estudiemos sobre los principios de diseño.
 
 Los principios de diseño son los mandamientos de la programación orientada a objetos. A continuación, exploraremos dos principios fundamentales sobre cohesión y acoplamiento.
-propina
 
 > El camino hacia el software orientado a objetos modificable y mantenible comienza con clases que son muy cohesivas y están poco acopladas.
 
@@ -120,7 +119,7 @@ Una clase altamente cohesiva tiene un conjunto de responsabilidades relacionadas
 
 Una clase con baja cohesión no es deseable ya que presenta los siguientes problemas:
 - Es difícil de comprender
-- Es difícil de reutilizar
+- Es difícil de reutilizar
 - Es difícil de mantener
 - Se ve afectada por cambios en forma constante
   
@@ -179,6 +178,6 @@ En un sistema fuertemente acoplado, cuando una clase cambia, existe un mayor rie
 
 Cuando observan el diagrama de clases UML de su diseño, cada "relación" es una indicación de acoplamiento. Cuantas más relaciones tenga *(y cuanto más fuertes sean las relaciones)*, mayor será el acoplamiento.
 
-> A veces, el acoplamiento no se manifiesta en un diagrama UML. Esto es cuando, por ejemplo, una clase depende del funcionamiento interno de otra clase. Esta es la forma más fuerte (y más desagradable) de acoplamiento.
+> A veces, el acoplamiento no se manifiesta en un diagrama UML. Esto es cuando, por ejemplo, una clase depende del funcionamiento interno de otra clase. Esta es la forma más fuerte *(y más desagradable)* de acoplamiento.
 
 Puede que sea imposible eliminar el acoplamiento, pero deben esforzarse por minimizarlo.
