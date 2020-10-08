@@ -25,9 +25,9 @@ public interface CursoRepositorio {
 
 Preguntas: 
 - Usando un repositorio o DAO, porque conviene definir una interfaz.
-- Faltan métodos?
+- ¿Faltan métodos?
 
-Implementamos la interzas:
+Implementamos la interfaz:
 
 ```java
 public class Sql2oCursoRepositorio implements CursoRepositorio {
