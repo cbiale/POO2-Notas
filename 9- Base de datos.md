@@ -1,4 +1,6 @@
-# Mapeo objeto relacional (ORM)
+# Base de datos
+
+## Mapeo objeto relacional (ORM)
 
 El mapeo objeto relacional *(ORM)* es una aplicación *(biblioteca)* para mapear sus objetos a una base de datos relacional; normalmente, usted describe qué clases y propiedades en el código se asignan a qué tablas y columnas en la base de datos, y luego la biblioteca hace todo el copiado y la traducción. 
 
