@@ -83,7 +83,7 @@ public void agregar(Curso curso) throws RepositorioExcepcion {
 > 
 > Para que la vinculación funcione sin problemas, debe tener el mismo nombre para los campos en el objeto y los nombres de columna en su tabla
 
- Un ejemplo de listar
+ Un ejemplo de listar:
 
 ```java
 @Override
@@ -94,4 +94,8 @@ public List<Curso> listar() {
     }
 }
 ```
+
+> **Tarea**
+> 
+> Agregar persistencia al proyecto.
 
