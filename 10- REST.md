@@ -156,17 +156,41 @@ Asigne cada campo JSON a un campo *(atributo)* de un objeto Java. Jackson  puede
 
 > En un POST podemos usar un formulario y enviar dicho formulario.
 
-(REVISAR)
-
 Pasar a JSON:
 ```java
-ctx.json(CursosRepositorio.listar());
+    public void listar(Context ctx) throws SQLException {
+        ctx.json(cursosRepositorio.listar());
+    }
 ```
-Manejar un pedido:
+
+Recibir un argumento:
 ```java
-var p = ctx.bodyAsClass(Curso.class);
-ctx.formParam("apellidos", String.class).get());
+    public void borrar(Context ctx) throws SQLException, CursoNoEncontradoExcepcion {
+        cursosRepositorio.borrar(cursosRepositorio.obtener(ctx.pathParam("identificador", Integer.class).get()));
+        ctx.status(204);
+    }
 ```
+
+Recibir datos de un formulario:
+```java
+    public void crear(Context ctx) throws SQLException {
+        // Usando un formulario
+        var c = new Curso(ctx.formParam("nombre", String.class).get());
+        cursosRepositorio.crear(c);
+        ctx.status(201);
+    }
+```
+Recibir datos JSON:
+```java
+    public void crear(Context ctx) throws SQLException {
+        var c = ctx.bodyAsClass(Curso.class);            
+        personasRepositorio.crear(c);
+        ctx.status(201);
+    }
+```
+
+> En el controlador se deben realizar las conversiones.
+
 
 **Objeto Java ↔ Base de Datos**
 
