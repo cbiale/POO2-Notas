@@ -20,27 +20,27 @@ heroku --version
 
 Esto nos devuelve la versión instalada de herocku cli.
 
-El siguiente paso es realizar un login usando.
+El siguiente paso es realizar un login usando:
 
 ```
 heroku login
 ```
 
-Luego se debe realizar un login para poder usar docker.
+Luego se debe realizar un login para poder usar docker:
 
 ```
 heroku container:login
 ```
 
-Creamos una aplicación usando el comando.
+Creamos una aplicación usando el comando:
 
 ```
-heroku create
+heroku create APP
 ```
 
-> Copiamos el nombre de nuestra aplicación.
+> APP es el nombre de nuestra aplicación.
 
-En este ejemplo, vamos a hacer una aplicación en nodejs usando como servidor a express.
+En este ejemplo, vamos a hacer una aplicación en nodejs usando como servidor a express:
 
 ```
 mkdir servidor
@@ -54,7 +54,7 @@ Ahora creamos un archivo index.js con el siguiente contenido
 ```
 const express = require('express')
 const app = express()
-const port = process.env.PUERTO
+const port = process.env.PORT
 
 
 app.get('/', (req, res) => res.send('Hola mundo'))
@@ -62,7 +62,7 @@ app.get('/', (req, res) => res.send('Hola mundo'))
 app.listen(port, () => console.log(port))
 ```
 
-Ahora vamos a realizar el `Dockerfile` para ubicar la aplicacion en un contenedor.
+Ahora vamos a realizar el `Dockerfile` para ubicar la aplicación en un contenedor.
 
 ```
 FROM node:10-alpine
@@ -73,7 +73,7 @@ COPY index.js .
 CMD ["node", "index.js"]
 ```
 
-Indicamos que vamos a usar la imagen de `node:10-apline`, creamos un directorio de trabajo `app`, copiamos nuestro `package.json` y ejecutamos el comando `npm install` para instalar las dependencias, luego copiamos nuestro archivo `index.js` y luego especificamos que se debe ejecutar al iniciar el contenedor.
+Indicamos que vamos a usar la imagen de `node:10-apline`, creamos un directorio de trabajo `app`, copiamos nuestro `package.json` y ejecutamos el comando `npm install` para instalar las dependencias, luego copiamos nuestro archivo `index.js` y al final especificamos que se debe ejecutar al iniciar el contenedor.
 
 Luego creamos nuestra imagen ejecutando el siguiente comando:
 
@@ -90,5 +90,7 @@ Para subir el contenedor a heroku debemos ejecutar:
 heroku container:release web -a APP
 ```
 
-Para finalizar, debemos ir a la dirección web de nuestra aplicación para ver nuestra aplicacion funcionando.
+Para finalizar, debemos ir a la dirección web de nuestra aplicación para ver nuestra aplicación funcionando.
+
+
 
