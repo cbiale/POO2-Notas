@@ -24,3 +24,7 @@ Para llegar a un caso de menor acoplamiento al indicar que `Revision` solo conoc
 1. Considere que beneficios trae para su sistema cada caso, enumere los mismos.
 2. Que critica puede hacer al ultimo paso realizado.
 
+## Anexos
+
+Los diagramas fueron realizados en [LiveUML](https://liveuml.com/).
+
