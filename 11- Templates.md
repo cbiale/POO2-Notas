@@ -1,4 +1,6 @@
-Es posible disenar las pantallas usando un framework de front-end o motores de templates.
+# Páginas
+
+Es posible diseñar las páginas usando un framework de front-end o motores de templates.
 
 En los frameworks de front-end encontramos:
 - AngularJS
@@ -178,9 +180,7 @@ Cuando abran el directorio `jte-class`, verán las clases Java generadas.
 
 ## Anexos
 
-Documento basado en: https://javalin.io/tutorials/jte
-
-Sintaxis de jte: https://github.com/casid/jte/blob/master/DOCUMENTATION.md
-
-Sitio completo usando jte y javalin: https://github.com/casid/jte-javalin-tutorial
+- Documento basado en: https://javalin.io/tutorials/jte
+- Sintaxis de jte: https://github.com/casid/jte/blob/master/DOCUMENTATION.md
+- Sitio completo usando jte y javalin: https://github.com/casid/jte-javalin-tutorial
 
