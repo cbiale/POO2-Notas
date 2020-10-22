@@ -71,7 +71,7 @@ HTTP requiere que los datos se transfieran de un punto a otro a través de la re
 
 ## Recurso, ruta y punto final
 
-Un punto final es un elemento de datos particular al que REST debe acceder *(por ejemplo, cursos)*.
+Un recurso es un elemento de datos particular al que REST debe acceder *(por ejemplo, cursos)*.
 
 Una ruta es un sufijo de URL para acceder al recurso necesario *(por ejemplo/cursos/5 para hacer referencia al curso con identificador 5)*.
 
@@ -85,7 +85,7 @@ Para ser 100% claros sobre el formato de solicitud/respuesta de los puntos final
 
 # Framework Web 
 
-**Javalin** es una biblioteca Java para desarrollar servidores web. Abstrae los aspectos de bajo nivel de la comunicación entre el servidor y el cliente al tiempo que evita las ser complejo en cuanto a su funcionamiento, por ello es apto para iniciarse en el desarrollo web. 
+**Javalin** es una biblioteca Java para desarrollar servidores web. Abstrae los aspectos de bajo nivel de la comunicación entre el servidor y el cliente, y no es complejo en cuanto a su funcionamiento, por ello es apto para iniciarse en el desarrollo web. 
 
 Para devolver resultados del servidor usaremos **Jackson**, una biblioteca de Java que permite mapear las estructuras de datos de Java a JSON y viceversa. Jackson es el mapeador JSON predeterminado para Javalin.
 
@@ -95,7 +95,7 @@ Para devolver resultados del servidor usaremos **Jackson**, una biblioteca de Ja
 
 El servidor y el cliente se comunican con un protocolo basado en texto sin formato *(HTTP)*. Pero necesitan intercambiar datos que estén más estructurados que el texto sin formato, por ejemplo, objetos, listas, etc.
 
-Un formato de intercambio de datos es una convención sobre cómo formatear datos estructurados en texto sin formato. JSON es un estándar de la industria, es más simple y más liviano que otras alternativas populares (por ejemplo: XML). 
+Un formato de intercambio de datos es una convención sobre cómo formatear datos estructurados en texto sin formato. JSON es un estándar de la industria, es más simple y más liviano que otras alternativas populares *(por ejemplo: XML)*. 
 
 > Recomiendo lean [JSON MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) y miren este [video](https://www.youtube.com/watch?v=iiADhChRriM).
 

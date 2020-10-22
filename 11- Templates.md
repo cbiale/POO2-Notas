@@ -30,7 +30,7 @@ Para usar jte, deben agregar la biblioteca como dependencia:
 <dependency>
     <groupId>gg.jte</groupId>
     <artifactId>jte</artifactId>
-    <version>1.0.0</version>
+    <version>1.3.0</version>
 </dependency>
 ```
 
@@ -53,7 +53,7 @@ Hola POO2 desde jte.
 En el método `main` de nuestro proyecto ingresen:
 
 ```java
-package app;
+package edu.unam.jte;
 
 public class App {
     public static void main(String[] args) {
@@ -75,20 +75,25 @@ jte en caso de encontrar un error en la plantilla, por ejemplo esto puede darse 
 
 ## Paso de parámetros
 
-Para poder pasar datos a una plantilla se debe Crear una clase de datos, como por ejemplo:
+Para poder pasar datos a una plantilla se puede crear una clase de datos, como por ejemplo:
 
 ```java
-package app;
+package edu.unam.jte;
 
 public class PaginaHola {
     public String nombreUsuario;
     public int documento;
 }
+```
 
 Ahora, completemos ese objeto de página y lo pasamos a jte:
 
 ```java
-package app;
+package edu.unam.jte;
+
+import io.javalin.*;
+import java.util.Collections;
+import io.javalin.http.Context;
 
 public class App {
     public static void main(String[] args) {
@@ -109,7 +114,7 @@ public class App {
 Ahora podemos usar el objeto de página en nuestra plantilla:
 
 ```html
-@param app.PaginaHola pagina
+@param edu.unam.jte.PaginaHola pagina
 
 <html lang="en">
 <body>
