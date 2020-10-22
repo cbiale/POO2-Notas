@@ -117,7 +117,7 @@ Ahora podemos usar el objeto de página en nuestra plantilla:
 </html>
 ```
 
-Ahora se necesita reiniciar el servidor. Una vez que actualice la página, debería ver la nueva salida en el navegador.
+Ahora se necesita reiniciar el servidor. Una vez que actualice la página, deberían ver la nueva salida en el navegador.
 
 ## Plantillas de precompilación
 
@@ -179,6 +179,8 @@ Cuando abran el directorio `jte-class`, verán las clases Java generadas.
 ## Anexos
 
 Documento basado en: https://javalin.io/tutorials/jte
+
 Sintaxis de jte: https://github.com/casid/jte/blob/master/DOCUMENTATION.md
+
 Sitio completo usando jte y javalin: https://github.com/casid/jte-javalin-tutorial
 
