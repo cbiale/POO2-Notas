@@ -37,4 +37,7 @@ revisiones=# CREATE TABLE revisiones (id SERIAL, calificacion INT NOT NULL, come
 
 > Para completar la tarea realicen la lectura 6.
 
+## Anexos
+
+Los diagramas fueron realizados en [LiveUML](https://liveuml.com/).
 
