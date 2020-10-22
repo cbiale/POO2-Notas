@@ -218,13 +218,13 @@ En la materia vamos a usar **sql2o** o **JDBC**.
 
 ## Introducción
 
-Las  pruebas de  software son importantes, tome  por  ejemplo  los millones  de dólares perdidos por la NASA por un error de conversión de unidades, si se hubieran realizado pruebas en el software este problema se hubiera detectado fácilmente.
+Las  pruebas de  software son importantes, tomen  por  ejemplo  los millones  de dólares perdidos por la NASA por un error de conversión de unidades, si se hubieran realizado pruebas en el software este problema se hubiera detectado fácilmente.
 
 La falta de pruebas puede causar un gran daño, en este caso financiero, pero a menudo incluso puede  afectar la  imagen  de una empresa, la idea que  los clientes tienen de un producto y, a menudo, estos daños pueden terminar siendo irreparables o muy difícil de arreglar.
 
 No solo el error de software  en sí, sino las consecuencias de  ese  error pueden ser muy graves.
 
-> Vean el siguiente [enlace](https://elpais.com/diario/1999/10/02/sociedad/938815207_850215.html)
+> Vean el siguiente [enlace](https://elpais.com/diario/1999/10/02/sociedad/938815207_850215.html).
 
 ## Pruebas de Software
 
@@ -243,6 +243,8 @@ Es  un framework de  prueba  que  utiliza  anotaciones  para  identificar  méto
 Una prueba en JUnit es un método contenido en una clase que solo se usa para pruebas *(clase  de  prueba)*, para  definir  que  cierto  método  es  un  método  de  prueba, se  debe anotarlo con la anotación *@Test*, este método ejecuta el código bajo prueba. 
 
 Se utiliza  un  método  de  aserción, proporcionado  por  JUnit, para  verificar  un  resultado esperado  versus  el  resultado  actual.  Estas  llamadas  a  métodos  generalmente  se  llaman afirmaciones   o   declaraciones   de   afirmación. Se   deben proporcionar   mensajes significativos en las declaraciones de afirmación, eso facilita que el usuario identifique y solucione el problema.
+
+> Recomiendo lean la [guía de usuario](https://junit.org/junit5/docs/current/user-guide/).
 
 ## Ejemplo
 
