@@ -48,7 +48,6 @@ La agregación es una asociación todo-parte. Se coloca un diamante en el extrem
 
 > Puede ser difícil distinguir la agregación de la composición; no se preocupen demasiado por eso.
 
-
 ## Diagramas de Casos de Uso
 
 > Capítulo 9 del libro de Fowler, Capítulo 3 de UML@Classroom.

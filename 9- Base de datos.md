@@ -80,7 +80,6 @@ public void agregar(Curso curso) throws RepositorioExcepcion {
 }
 ```
 
-
 > **Importante**
 > 
 > Para que la vinculación funcione sin problemas, debe tener el mismo nombre para los campos en el objeto y los nombres de columna en su tabla
@@ -100,4 +99,10 @@ public List<Curso> listar() {
 > **Tarea**
 > 
 > Agregar persistencia al proyecto.
+
+
+## Anexos
+
+- Documentación: https://github.com/aaberg/sql2o/wiki
+- Guía de sql2o: https://www.baeldung.com/java-sql2o
 
