@@ -55,10 +55,11 @@ En el método `main` de nuestro proyecto ingresen:
 ```java
 package edu.unam.jte;
 
+import io.javalin.*;
+
 public class App {
     public static void main(String[] args) {
         Javalin app = Javalin.create().start(7000);
-
         app.get("/", ctx -> ctx.render("hola.jte"));
     }
 }
@@ -106,7 +107,7 @@ public class App {
         var pagina = new PaginaHola();
         pagina.nombreUsuario = "admin";
         pagina.documento = 123456789;
-        ctx.render("hola.jte", Collections.singletonMap("page", pagina));
+        ctx.render("hola.jte", Collections.singletonMap("pagina", pagina));
     }
 }
 ```
