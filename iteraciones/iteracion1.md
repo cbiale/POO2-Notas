@@ -12,7 +12,7 @@ Debe incluir lo siguiente:
 | Enviar correo con repositorio del grupo | 06/10/2020 23:55 |
 | Subir erp.md                            | 06/10/2020 23:55 |
 | Subir it1_dp.md                         | 06/10/2020 23:55 |
-| Subir código fuente aplicación          | 15/10/2020 23:55 |
+| Subir código fuente aplicación          | 22/10/2020 23:55 |
 
 
 ## Consideraciones adicionales
