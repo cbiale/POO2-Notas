@@ -1,6 +1,6 @@
 # Iteración 2
 
-> El objetivo general de esta iteración es hacer un poco más en comparación con la última iteración; necesita acelerar el ritmo y generar impulso.
+> El objetivo general de esta iteración es hacer un poco más en comparación con la última iteración; necesitan acelerar el ritmo y generar impulso.
 
 
 Debe incluir lo siguiente:
