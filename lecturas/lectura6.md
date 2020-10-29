@@ -1,4 +1,4 @@
-# Lectura 5 - Sql2o
+# Lectura 6 - Sql2o
 
 Para conectarse a una base de datos deben crear un objeto sql2o de la siguiente forma:
 
