@@ -17,7 +17,6 @@ Debe incluir lo siguiente:
 | Subir it2_dp.md                         | 31/10/2020 23:55 |
 | Subir código fuente aplicación          | 05/11/2020 23:55 |
 
-
 ## Consideraciones adicionales
 
 Deben escribir una Retrospectiva para la iteración 1. La retrospectiva es una oportunidad para que el equipo se inspeccione y creen un plan de mejoras que se implementarán durante la próxima iteración. Revisen lo que se hizo en la iteración 1; anoten las cosas que ha cumplido y las que no han cumplido, anoten los retos que tuvieron y reflexionen sobre cómo deben proceder en la siguiente iteración para hacer un mejor trabajo. No hay un formato específico para el documento retrospectivo y no hay requisitos sobre su longitud, formato, etc. Solo tiene la intención de reflexionar sobre la iteración 1 y usarla para mejorar las próximas iteraciones. Escriban esto en un archivo denominado `retrospectiva_it1.md`.
