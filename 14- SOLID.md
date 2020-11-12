@@ -364,8 +364,6 @@ public class RelojNormalImpl implements IRelojNormal {
 
 ## Principio de Inversión de Dependencias
 
-También se llama __inyección de dependencia__.
-
 > No dependas de clases concretas, depende de abstracciones.
 
 Las clases de alto nivel no deberían depender de las clases de bajo nivel. Ambas deberían depender de las abstracciones.
@@ -411,7 +409,6 @@ public class ServicioFacturacion {
     }
 }
 ```
-
 
 Ahora `ServicioFacturacion` depende de la interfaz `ProcesadorTarjetaCredito`, no de una implementación particular.
 
