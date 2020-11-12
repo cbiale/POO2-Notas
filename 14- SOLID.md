@@ -1,4 +1,4 @@
-#Principios de Diseño
+# Principios de Diseño
 
 ## Introducción
 
