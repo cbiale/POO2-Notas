@@ -6,7 +6,7 @@ Para conectarse a una base de datos deben crear un objeto sql2o de la siguiente 
 var sql2o = new Sql2o("jdbc:postgresql://localhost:PUERTO/DB", "USUARIO", "CLAVE");
 ```
 
-> Adapten los datos a sus necesidades
+> Adapten los datos a sus necesidades. Deben tener la biblioteca de JDBC para PostgreSQL y de sql2o.
 
 El repositorio de una clase debe contener un atributo como el siguiente: 
 
