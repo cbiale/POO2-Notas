@@ -25,4 +25,6 @@ El Documento de diseño y planificación debe contener los siguientes apartados:
 - **Backlog de iteración**: Enumeren las Historias de usuario que implementarán en esta iteración.
 - **Tareas**: Una lista tentativa de lo que se debe hacer para completar con éxito las historias de usuario a implementar en la iteración.
 
+Por otro lado deben documentar el código para generar un documento de su aplicación usando Javadoc.
+
 > Al final de la iteración 4 van a liberar la versión alpha de su aplicación. En el mundo real, esto es igual a liberar la aplicación a una audiencia limitada. Esto significa que las características "debe tener" deben estar terminada y, es deseable, que las características  de alta prioridad de tipo "es bueno tener" también estén finalizadas.
