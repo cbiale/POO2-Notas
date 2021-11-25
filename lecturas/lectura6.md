@@ -1,4 +1,4 @@
-# Lectura 7
+# Lectura 6
 
 Lea las lecturas referidas a buenas prácticas para el diseño de APIs RESTfull.
 
