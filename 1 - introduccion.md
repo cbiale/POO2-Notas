@@ -2,11 +2,10 @@
 
 - Adjunto interino semiexclusiva: Claudio Omar Biale
 
-
 # Libro de Referencia
 
 El libro de referencia es: **Head First Object-Oriented Analysis & Design** de Brett D. McLaughlin, Gary Pollice y Dave West.
-
+ 
 
 ![](./figuras/libro1.jpeg)
 
