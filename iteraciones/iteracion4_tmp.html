@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>iteracion4.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="iteraci%C3%B3n-4">Iteración 4</h1>
+<p>En esta iteración deben liberar una versión <strong>alpha</strong> de su aplicación.</p>
+<p>Debe incluir en un directorio <code>iteracion4</code> lo siguiente:</p>
+<ul>
+<li><strong>Documento de especificación de requisitos del proyecto</strong>: deben denominar al archivo <code>erp.md</code>.</li>
+<li><strong>Documento de diseño y planificación</strong>: deben denominar al archivo <code>dp.md</code>.</li>
+</ul>
+<h2 id="tiempos-de-entrega">Tiempos de entrega</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Tarea</th>
+<th style="text-align:center">Fecha</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Completar retrospectiva iteración 3</td>
+<td style="text-align:center">21/11/2021 23:59</td>
+</tr>
+<tr>
+<td style="text-align:left">Actualizar <code>erp.md</code></td>
+<td style="text-align:center">21/11/2021 23:59</td>
+</tr>
+<tr>
+<td style="text-align:left">Subir <code>dp.md</code></td>
+<td style="text-align:center">21/11/2021 23:59</td>
+</tr>
+<tr>
+<td style="text-align:left">Subir enlace a release inicial de iteración 4</td>
+<td style="text-align:center">21/11/2021 23:59</td>
+</tr>
+<tr>
+<td style="text-align:left">Subir enlace a release final de iteración 4 <em>(Sin retrospectiva)</em></td>
+<td style="text-align:center">03/12/2021 23:59</td>
+</tr>
+</tbody>
+</table>
+<h2 id="consideraciones-adicionales">Consideraciones adicionales</h2>
+<p>Deben escribir una Retrospectiva para la iteración 3. La retrospectiva es una oportunidad para que el equipo se inspeccione y creen un plan de mejoras que se implementarán durante la próxima iteración. Revisen lo que se hizo en la iteración 3; anoten las cosas que ha cumplido y las que no han cumplido, anoten los retos que tuvieron y reflexionen sobre cómo deben proceder en la siguiente iteración para hacer un mejor trabajo. No hay requisitos sobre su longitud, formato, etc. Solo tiene la intención de reflexionar sobre la iteración 3 y usarla para mejorar las próximas iteraciones. Escriban esto en un archivo denominado <code>retrospectiva.md</code> en el directorio <code>iteracion3</code>.</p>
+<h3 id="especificaci%C3%B3n-de-requisitos-del-proyecto">Especificación de requisitos del proyecto</h3>
+<p>Después de la iteración 3, es posible que deseen actualizar el archivo <code>erp.md</code>. Esta es una práctica común; después de cada iteración, retrocederán y perfeccionarán las historias de usuario. Si van a realizar un cambio crítico <em>(que afecta el alcance de su trabajo)</em>, asegúrense de que esté al tanto.</p>
+<blockquote>
+<p>Solo necesitan actualizar el archivo <code>erp.md</code> si desean realizar cambios en la especificación de su proyecto de software propuesto. Es decir, pueden dejarlo como está, si están satisfecho con él y no ha habido ningún cambio de planes desde la última iteración.</p>
+</blockquote>
+<p>Si van a cambiar el archivo ubiquen el archivo actualizado en el directorio de la iteración 4.</p>
+<h3 id="documento-de-dise%C3%B1o-y-planificaci%C3%B3n">Documento de diseño y planificación</h3>
+<p>El archivo debe tener el siguiente contenido:</p>
+<pre class="hljs"><code><div># Trabajo en equipo
+
+# Diseño OO
+
+# Wireframe y caso de uso
+
+# Backlog de iteraciones
+
+# Tareas
+
+# Retrospectiva
+</div></code></pre>
+<p>Completen el documento de acuerdo con sus planes para la iteración 4.</p>
+<h3 id="tablero-de-proyecto-de-github">Tablero de proyecto de GitHub</h3>
+<p>Es muy importante que utilicen el tablero de proyecto y lo mantengan actualizado; el mismo debe reflejar sus planes y especificar claramente quién está trabajando en qué.</p>
+<h2 id="entrega-final">Entrega final</h2>
+<p>Al final de la iteración 4 van a liberar la versión alpha de su aplicación. En el mundo real, esto es igual a liberar la aplicación a una audiencia limitada. Esto significa que la mayoría de las características &quot;debe tener&quot; deben estar terminadas y, es deseable, que las características de alta prioridad de tipo &quot;es bueno tener&quot; también estén finalizadas.</p>
+<p>Una vez que se ha alcanzado la etapa Alfa, el equipo prueba y perfecciona exhaustivamente las funciones junto con otros elementos para mejorar la fidelidad y cumplir con los requisitos de diseño del software.</p>
+<blockquote>
+<p>Debe ser posible poder extraer el código, ejecutarlo localmente e implementarlo si es necesario (así que mantengan su <code>README.md</code> actualizado con instrucciones sobre cómo usar el software, así como cómo configurar el entorno de desarrollo y enviarlo a producción)</p>
+</blockquote>
+<p>Sigan buenas prácticas de programación e ingeniería de software. Serán examinados el entregable, código fuente, documentos, tablero de proyecto y el historial de confirmaciones para evaluar el trabajo.</p>
+<h2 id="presentaci%C3%B3n">Presentación</h2>
+<p>En la semana final del cuatrimestre deben presentar su proyecto.</p>
+<p>Ser un buen desarrollador de software también significa poder comunicar lo que hizo y hará a los clientes, la gerencia y sus pares. El componente de presentación oral de los proyectos le ayuda a practicar en este campo.</p>
+
+</body>
+</html>

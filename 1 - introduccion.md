@@ -1,6 +1,7 @@
 # Grupo de trabajo
 
-- Adjunto suplente: Claudio Omar Biale
+- Adjunto interino semiexclusiva: Claudio Omar Biale
+
 
 # Libro de Referencia
 
@@ -149,5 +150,3 @@ Instalar los siguientes aplicativos:
 Instalar las siguientes extensiones en **VSCode**:
 - Java Extension Pack *(vscjava.vscode-java-pack)*
 - Project Manager for Java *(vscjava.vscode-java-dependency)*
-
-
